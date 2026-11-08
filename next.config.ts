@@ -3,8 +3,9 @@ import type { NextConfig } from "next";
 const nextConfig: NextConfig = {
   /* config options here */
   experimental: {
-    agentFeedback: true,
-  },
+  agentFeedback: true,
+  agentUpgrade: "security",
+},
   cacheComponents: true,
   partialPrefetching: true,
   turbopack: {
